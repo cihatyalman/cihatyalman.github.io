@@ -1,0 +1,74 @@
+[
+  {
+    "LogoLink": "https://www.kutusoft.com/assets/images/soapp/logo.webp",
+    "Title": "SOAPP : Social App",
+    "Description": "Kullanıcıların etkinlik oluşturabildiği ve gönderi paylaşabildiği bir sosyal medya uygulaması",
+    "Company": "KutuSoft",
+    "Link": "https://www.kutusoft.com/soapp",
+    "AppStoreLink": "https://apps.apple.com/tr/app/soapp-social-app/id6504526951?l=tr",
+    "PlayStoreLink": "https://play.google.com/store/apps/details?id=com.cy.soapp"
+  },
+  {
+    "LogoLink": "https://www.kutusoft.com/assets/images/uniyemek/logo.webp",
+    "Title": "UniYemek",
+    "Description": "İşletmeleri ve öğrencileri bir araya getiren bir öğrenci platformu",
+    "Company": "KutuSoft",
+    "Link": "https://www.kutusoft.com/uniyemek",
+    "AppStoreLink": "https://apps.apple.com/tr/app/uniyemek/id6464523325?l=tr",
+    "PlayStoreLink": "https://play.google.com/store/apps/details?id=com.cy.uniyemek"
+  },
+  {
+    "LogoLink": "https://www.kutusoft.com/assets/images/kampusmedya/logo.webp",
+    "Title": "Kampüs Medya",
+    "Description": "Üniversite öğrenci kitlesini hedefleyen bir haber uygulaması",
+    "Company": "KutuSoft",
+    "Link": "https://www.kutusoft.com/kampusmedya",
+    "AppStoreLink": "https://apps.apple.com/tr/developer/cihat-yalman/id1700486665?l=tr",
+    "PlayStoreLink": "https://play.google.com/store/apps/dev?id=6128508124214547444"
+  },
+  {
+    "LogoLink": "https://play-lh.googleusercontent.com/ZzauOWNzgP3NRFWfYOd386xiok4eniemBdVcF5bAyDLIWicR6VI-aioiJ0gDrt0y9C4=w480-h960-rw",
+    "Title": "Şipşak Kurye - Şipşak Kurye Sürücü",
+    "Description": "Kurye uygulaması (Kullanıcı ve Kurye)",
+    "Company": "Internative Yazılım",
+    "Link": "https://sipsakapp.com",
+    "AppStoreLink": "https://apps.apple.com/tr/app/%C5%9Fip%C5%9Fak-kurye/id1637870638",
+    "PlayStoreLink": "https://play.google.com/store/apps/details?id=com.sipsak.app"
+  },
+  {
+    "LogoLink": "https://play-lh.googleusercontent.com/2mV7ClTjlxqA5IW4gIol4x7gzZuq_uk0iCvxQ6oqTWdjJLi1eiJg7ok4IyqIMeusmXI=w480-h960-rw",
+    "Title": "listenee",
+    "Description": "Sesli yayın yapma özelliği olan sosyal medya uygulaması",
+    "Company": "Internative Yazılım",
+    "Link": "https://listenee.co",
+    "AppStoreLink": "https://apps.apple.com/tr/app/listenee-asm/id6446233584",
+    "PlayStoreLink": "https://play.google.com/store/apps/details?id=com.listeneee.app"
+  },
+  {
+    "LogoLink": "https://play-lh.googleusercontent.com/5tF9CLBFo6zneAN4Fqy0vB4P-_mYKlVU3IO962Z-4ATJIIgb8tUXXayiP2tGltobXmah=w480-h960-rw",
+    "Title": "Holacon Staff",
+    "Description": "QR ile giriş kontrol sistemi ve yönetim uygulaması",
+    "Company": "Internative Yazılım",
+    "Link": "https://holacon.com",
+    "AppStoreLink": "https://apps.apple.com/us/app/holacon-staff/id1495695087",
+    "PlayStoreLink": "https://play.google.com/store/apps/details?id=com.holacon.staff"
+  },
+  {
+    "LogoLink": "https://play-lh.googleusercontent.com/cTAdh-kmGB7Ir7L4uMn68S6NKuHPagO7dYdQr0n6lFELRgOcwU8XycHXNhft_5YrbPg=w480-h960-rw",
+    "Title": "Masajım Geldi",
+    "Description": "Randevu sistemi olan bir hizmet uygulaması",
+    "Company": "Internative Yazılım",
+    "Link": "https://masajimgeldi.com",
+    "AppStoreLink": "https://apps.apple.com/tr/app/masaj%C4%B1m-geldi/id1623767198",
+    "PlayStoreLink": "https://play.google.com/store/apps/details?id=com.masajimgeldi.app"
+  },
+  {
+    "LogoLink": "https://play-lh.googleusercontent.com/HX3j7-vxDnljh6IM6Pioja_G2mh9YVZ0z27gYwxQXX_mwET9sliUD2geN4JFxDraKwM=w480-h960-rw",
+    "Title": "Hamile Bebek Takibi - All4baby",
+    "Description": "Anneler için bebek gelişimi takip uygulaması",
+    "Company": "Internative Yazılım",
+    "Link": "https://all4baby.net",
+    "AppStoreLink": "https://apps.apple.com/tr/app/hamile-bebek-takibi-all4baby/id1580724085",
+    "PlayStoreLink": "https://play.google.com/store/apps/details?id=all4baby.com.all4baby"
+  }
+]
