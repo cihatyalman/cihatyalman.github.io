@@ -19,7 +19,6 @@
 </head>
 
 <body>
-
     <header>
         <a href="/">
             <h1>Cihat Yalman</h1>
@@ -32,7 +31,21 @@
             <a href="#education">Eğitim</a>
             <a href="#about">Hakkımda</a>
             <a href="#contact">İletişim</a>
-
+        </nav>
+        <div class="menu-button" onclick="openNav()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <nav id="navbar-mobile" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="#preface" onclick="closeNav()">Ben Kimim?</a>
+                <a href="#work" onclick="closeNav()">Çalışma Hayatım</a>
+                <a href="#projects" onclick="closeNav()">Projeler</a>
+                <a href="#skills" onclick="closeNav()">Yetenekler</a>
+                <a href="#education" onclick="closeNav()">Eğitim</a>
+                <a href="#about" onclick="closeNav()">Hakkımda</a>
+                <a href="#contact" onclick="closeNav()">İletişim</a>
+            </div>
         </nav>
     </header>
 
@@ -40,7 +53,7 @@
         <img class="bg-image" src="/assets/images/b2.jpg" alt="BG">
         <div class="info-container">
             <div class="column1">
-                <img class="profile-image" src="/assets/images/profile1.jpg" alt="Profile Image">
+                <img class="profile-image" src="/assets/images/profile1.jpeg" alt="Profile Image">
             </div>
             <div style="padding: 32px;"></div>
             <div class="column2">
@@ -313,6 +326,16 @@
         var columns = $("#projects .project-list");
         initProjectItem(columns);
     });
+
+
+    function openNav() {
+        document.getElementById("navbar-mobile").style.width = "100%";
+    }
+    function closeNav() {
+        document.getElementById("navbar-mobile").style.width = "0%";
+    }
+
+
 </script>
 
 </html>
