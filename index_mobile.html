@@ -13,7 +13,7 @@
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="/lib/css/global.css">
-    <link rel="stylesheet" href="/lib/css/main.css">
+    <link rel="stylesheet" href="/lib/css/mobile.css">
 
     <link rel="stylesheet" href="/lib/snippets/project-item/main.js">
 </head>
@@ -21,18 +21,7 @@
 <body>
     
     <header>
-        <a href="/">
-            <h1>Cihat Yalman</h1>
-        </a>
-        <nav id="navbar">
-            <a href="#preface">Ben Kimim?</a>
-            <a href="#work">Çalışma Hayatım</a>
-            <a href="#projects">Projeler</a>
-            <a href="#skills">Yetenekler</a>
-            <a href="#education">Eğitim</a>
-            <a href="#about">Hakkımda</a>
-            <a href="#contact">İletişim</a>
-        </nav>
+        <a href="/"><h1>Cihat Yalman</h1></a>
         <div class="menu-button" onclick="openNav()">
             <i class="fa-solid fa-bars"></i>
         </div>
@@ -53,15 +42,16 @@
     <section id="cover">
         <img class="bg-image" src="/assets/images/b2.jpg" alt="BG">
         <div class="info-container">
-            <div class="column1">
-                <img class="profile-image" src="/assets/images/profile1.jpeg" alt="Profile Image">
+            <div class="profile-image">
+                <img src="/assets/images/profile1.jpeg" alt="Profile Image">
             </div>
-            <div style="padding: 32px;"></div>
             <div class="column2">
+                <br>
                 <div class="primary-info">
                     <h1>Cihat Yalman</h1>
                     <h3>Mobil Uygulama Geliştiricisi</h3>
                 </div>
+                <br>
                 <a href="mailto:bmcihatyalman@gmail.com">
                     <div class="mini-info">
                         <h4>E-Posta:</h4>
@@ -96,7 +86,7 @@
             <a href="https://www.instagram.com/cihatyalman" target="_blank"><i class="fa-brands fa-instagram"></i></a>
         </div>
         <br><br>
-        <h2>Ben Kimim?</h2>
+        <h2 class="section-title">Ben Kimim?</h2>
         <br>
         <p class="container">
             Her daim kendini geliştiren, bilgilerini ve öğrendiklerini başkalarına aktaran, yeni teknolojileri
@@ -110,7 +100,7 @@
 
     <section id="work" class="white0">
         <br><br>
-        <h2>Çalışma Hayatım</h2>
+        <h2 class="section-title">Çalışma Hayatım</h2>
         <br>
         <div class="timeline container">
             <div class="entry">
@@ -163,11 +153,9 @@
 
     <section id="projects" class="white1">
         <br><br>
-        <h2>Projeler</h2>
+        <h2 class="section-title">Projeler</h2>
         <br>
         <div class="project-list container">
-            <div class="project-list1 container"></div>
-            <div class="project-list2 container"></div>
         </div>
         <br>
         <br>
@@ -175,7 +163,7 @@
 
     <section id="skills" class="white0">
         <br><br>
-        <h2>Yetenekler</h2>
+        <h2 class="section-title">Yetenekler</h2>
         <br>
         <div class="item-list">
             <div class="card">Flutter</div>
@@ -190,7 +178,7 @@
 
     <section id="education" class="white1">
         <br><br>
-        <h2>Eğitim</h2>
+        <h2 class="section-title">Eğitim</h2>
         <br>
         <div class="timeline container">
             <div class="entry">
@@ -217,7 +205,7 @@
 
     <section id="about" class="white0">
         <br><br>
-        <h2>Hakkımda</h2>
+        <h2 class="section-title">Hakkımda</h2>
         <br>
         <p class="container">
             1997 yılında Çorum'un merkez ilçesinde doğdum. Bilecik Üniversitesi'nde bilgisayar mühendisliği okudum.
@@ -243,7 +231,7 @@
 
     <section id="contact" class="white1">
         <br><br>
-        <h2>İletişim</h2>
+        <h2 class="section-title">İletişim</h2>
         <br>
         <div class="contact-list container">
             <div class="contact-list1">
@@ -266,7 +254,7 @@
                     </div>
                 </a>
             </div>
-            <hr style="margin: 0 24px;">
+            <hr style="margin: 24px;">
             <div class="contact-list2">
                 <a href="https://www.kutusoft.com">
                     <div class="mini-info">

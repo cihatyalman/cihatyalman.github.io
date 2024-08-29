@@ -1,6 +1,6 @@
 [
   {
-    "LogoLink": "https://www.kutusoft.com/assets/images/soapp/logo.webp",
+    "LogoLink": "https://play-lh.googleusercontent.com/CsQG2NAsiga44kzC5k-gwYQu4Yx2Mkh1aCe4BxtpWgTvZ3bjd8PZHYcHXqy49eiDXLk=s0",
     "Title": "SOAPP : Social App",
     "Description": "Kullanıcıların etkinlik oluşturabildiği ve gönderi paylaşabildiği bir sosyal medya uygulaması",
     "Company": "KutuSoft",
@@ -9,7 +9,7 @@
     "PlayStoreLink": "https://play.google.com/store/apps/details?id=com.cy.soapp"
   },
   {
-    "LogoLink": "https://www.kutusoft.com/assets/images/uniyemek/logo.webp",
+    "LogoLink": "https://play-lh.googleusercontent.com/2sPl6DIVl6UoIHeopjoiPI3UiEUl2OgJwZt8lPoPWQrfIOqoDxGszEfWpKQuDJpvWzc=s0",
     "Title": "UniYemek",
     "Description": "İşletmeleri ve öğrencileri bir araya getiren bir öğrenci platformu",
     "Company": "KutuSoft",
@@ -70,5 +70,19 @@
     "Link": "https://all4baby.net",
     "AppStoreLink": "https://apps.apple.com/tr/app/hamile-bebek-takibi-all4baby/id1580724085",
     "PlayStoreLink": "https://play.google.com/store/apps/details?id=all4baby.com.all4baby"
+  },
+  {
+    "LogoLink": "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png",
+    "Title": "Flutter Architecture",
+    "Description": "Projelerinizde kullanabileceğiniz flutter mimarisi",
+    "Company": "GitHub",
+    "Link": "https://github.com/cihatyalman/flutter_architecture"
+  },
+  {
+    "LogoLink": "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png",
+    "Title": "Flutter Core",
+    "Description": "Projelerinizde kullanabileceğiniz çekirdek katman",
+    "Company": "GitHub",
+    "Link": "https://github.com/cihatyalman/flutter_core"
   }
 ]
