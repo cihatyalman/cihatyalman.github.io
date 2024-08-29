@@ -1,7 +1,3 @@
-h1 {
-  font-size: 40px;
-}
-
 .section-title {
   text-decoration: underline;
   letter-spacing: 0.1em;
@@ -9,11 +5,11 @@ h1 {
 
 /* #region Header */
 header {
-  height: 80px;
+  height: 64px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 16px;
+  padding: 0 12px;
 
   a {
     color: #182153;
@@ -90,7 +86,7 @@ header {
 /* #region Cover */
 
 #cover {
-  height: 850px;
+  height: 800px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -98,20 +94,20 @@ header {
   .bg-image {
     position: absolute;
     width: 100%;
-    height: 850px;
+    height: 800px;
     z-index: -1;
     object-fit: cover;
   }
   .info-container {
     text-align: center;
-    margin-bottom: 10px;
-    width: 400px;
-    height: 800px;
+    margin-bottom: 8px;
+    width: 384px;
+    height: 768px;
     background-color: #cbd3ff;
 
     .profile-image img {
-      width: 400px;
-      height: 400px;
+      width: 384px;
+      height: 384px;
       object-fit: cover;
       object-position: 0 20%;
     }
@@ -125,11 +121,14 @@ header {
 
 /* #region Preface */
 #preface {
-  padding: 0 24px;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  p {
+    padding: 0 24px;
+  }
 }
 #preface .contact-info {
   width: 400px;
@@ -149,7 +148,7 @@ header {
   padding: 0 24px;
 
   .timeline {
-    padding: 8px 16px;
+    padding: 8px 0;
     position: relative;
     &:before {
       content: "";
@@ -210,6 +209,10 @@ header {
     display: flex;
     flex-direction: column;
     gap: 16px;
+
+    .project-item {
+      min-width: 400px;
+    }
   }
 }
 /* #endregion */
@@ -243,7 +246,7 @@ header {
   padding: 0 24px;
 
   .timeline {
-    padding: 8px 16px;
+    padding: 8px 0;
     position: relative;
     &:before {
       content: "";
@@ -309,6 +312,11 @@ header {
 #contact {
   text-align: center;
   padding: 0 24px;
+
+  .contact-list {
+    text-align: center;
+    width: 400px;
+  }
 }
 #contact .contact-list .contact-list2 .mini-info {
   margin-bottom: 16px;
@@ -322,7 +330,7 @@ header {
 /* #region Footer */
 footer {
   padding-bottom: 10px;
-  height: 80px;
+  height: 64px;
   background-color: #182153;
   color: #fff;
   display: flex;
@@ -340,3 +348,60 @@ footer {
   }
 }
 /* #endregion */
+
+/* @media (min-width: 768px) {
+  #cover {
+    height: 480px;
+
+    .bg-image {
+      height: 480px;
+    }
+    .info-container {
+      display: flex;
+      width: 768px;
+      height: 384px;
+
+      .column2 {
+        width: 100%;
+        text-align: start;
+        padding-left: 48px;
+      }
+    }
+  }
+
+  #preface {
+    .contact-info {
+      width: 768px;
+    }
+  }
+
+  #contact {
+    .contact-list {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+
+      .contact-list1 {
+        width: 400px;
+      }
+      .contact-list2 {
+        width: 400px;
+        text-align: start;
+      }
+    }
+  }
+}
+
+@media (min-width: 868px) {
+  #projects {
+    .project-list {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .project-item {
+      width: 45%;
+    }
+  }
+} */

@@ -19,9 +19,11 @@
 </head>
 
 <body>
-    
+
     <header>
-        <a href="/"><h1>Cihat Yalman</h1></a>
+        <a href="/">
+            <h1>Cihat Yalman</h1>
+        </a>
         <div class="menu-button" onclick="openNav()">
             <i class="fa-solid fa-bars"></i>
         </div>
@@ -239,7 +241,7 @@
                     <h1>Cihat Yalman</h1>
                     <h3>Mobil Uygulama Geliştiricisi</h3>
                 </div>
-                <br><br>
+                <br>
                 <a href="mailto:bmcihatyalman@gmail.com">
                     <div class="mini-info">
                         <h4>E-Posta:</h4>
@@ -306,10 +308,21 @@
         </a>
     </footer>
 
+
+
+    <div class="width" style="position: fixed; top: 0; left: 0; font-size: 20px; color: coral;">0</div>
+
 </body>
 <script src="/lib/snippets/project-item/main.js"></script>
 <link rel="stylesheet" href="/lib/snippets/project-item/main.css">
 <script>
+
+    var size = $(".width");
+    // test
+    $(window).resize(function () {
+        size.text(window.innerWidth)
+    });
+
     // Page Init
     $(function () {
         var columns = $("#projects .project-list");
