@@ -9,7 +9,7 @@ html{
 
 /* #region Mobile Navbar */
 #navbar-mobile {
-  width: 100%;
+  width: 0;
   height: 100%;
   text-align: center;
   position: fixed;
