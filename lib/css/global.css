@@ -1,4 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300..700&display=swap");
 
 * {
   margin: 0;
@@ -12,9 +13,10 @@ a {
 }
 
 html {
-  font-family: "Avenir";
+  font-family: "Avenir", "Montserrat", sans-serif;
   color: #182153;
   scroll-behavior: smooth;
+  line-height: 1.5rem;
 }
 
 .container {
